@@ -404,7 +404,7 @@ section {
 
 .gallery-image {
     width: 100%;
-    height: auto;
+    aspect-ratio: 1 / 1;
     border-radius: 12px;
     object-fit: cover;
     box-shadow: 0 4px 12px rgba(107, 39, 55, 0.1);
