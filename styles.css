@@ -173,7 +173,7 @@ body {
 
 .hero-image .consultation-video {
     width: 100%;
-    height: auto;
+    aspect-ratio: 1 / 1;
     border-radius: 12px;
     box-shadow: 0 8px 24px rgba(107, 39, 55, 0.15);
     object-fit: cover;
