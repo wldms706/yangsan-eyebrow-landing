@@ -110,6 +110,18 @@ body {
     }
 }
 
+.hero-logo {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: var(--spacing-md);
+}
+
+@media (min-width: 768px) {
+    .hero-logo {
+        max-width: 280px;
+    }
+}
+
 .hero-title {
     font-size: 36px;
     font-weight: 700;
