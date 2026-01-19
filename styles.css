@@ -416,7 +416,7 @@ section {
 
 .gallery-image {
     width: 100%;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 4 / 5;
     border-radius: 12px;
     object-fit: cover;
     box-shadow: 0 4px 12px rgba(107, 39, 55, 0.1);
@@ -817,6 +817,12 @@ section {
     font-size: 13px;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 0 !important;
+}
+
+.footer-location {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: var(--spacing-sm) !important;
 }
 
 /* ========================================
